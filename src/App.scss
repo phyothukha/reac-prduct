@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,900&display=swap');
+
+$font-family-sans-serif:'Roboto', sans-serif;
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+.bg-dark-05{
+  background-color: rgba(30, 33, 31, 0.36);
+}
+.cart-scroll{
+  height: 500px;
+  overflow: auto;
+
+}
+.cartCount{
+  width: 100px;
+}
+.cart-scroll::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 5rem;
+}
+//.cart-scroll::-webkit-scrollbar-track{
+//  background-color: transparent;
+//}
+.cart-scroll::-webkit-scrollbar{
+  width: 3px;
+  padding: 5px;
+}
+
+
